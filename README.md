@@ -7,3 +7,4 @@
 | 3 | Learnt to use cudaMalloc, cudaMemcpy and cudaFree | [vector_add.cu](./day_3/vector_add.cu)
 | 4 | Vector addition by leveraging multiple threads <br> Matrix Multiplication | [vector_add.cu](./day_4/vector_add.cu) <br> [matmul.cu](./day_4/matmul.cu)
 | 5 | RGB2GRAY Kernel | [rgb2gray.cu](./day_5/rgb2gray.cu)
+| 6 | Image Blurring Kernel | [imgblur.cu](./day_6/imgblur.cu)
