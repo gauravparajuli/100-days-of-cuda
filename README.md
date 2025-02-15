@@ -9,3 +9,4 @@
 | 5 | RGB2GRAY Kernel | [rgb2gray.cu](./day_5/rgb2gray.cu) | ✅ |
 | 6 | Image Blurring Kernel | [imgblur.cu](./day_6/imgblur.cu) | ✅ |
 | 7 | Read about unified memory architecture <br> TiledMatrixMultiplication using Shared Memory | [umemory.cu](./day_7/umemory.cu) <br> [tiledmmu.cu](./day_7/Makefile) | ✅ |
+| 8 | Implemented Softmax Kernel <br> Will learn about reduction techniques and optimize this tomorrow | [smax.cu](./day_8/smax.cu) | ✅ |
