@@ -84,7 +84,7 @@ void stencil_gpu(float* h_in, float* h_out, unsigned int N) {
     stencil_kernel<<<gridDim, blockDim>>>(d_in, d_out, N);
     cudaDeviceSynchronize();
     stopTime(&timer);
-    printElapsedTime(timer, "Kernel execution time", GREEN);
+    printElapsedTime(timer, "GPU Kernel execution time", GREEN);
 
     // 4. Time required to copy from device to host
     startTime(&timer);
@@ -107,7 +107,7 @@ void stencil_gpu(float* h_in, float* h_out, unsigned int N) {
 }
 
 int main() {
-    unsigned int N = 256;
+    unsigned int N = 512;
     size_t size = N * N * N * sizeof(float);
 
     // Allocate host memory
@@ -124,7 +124,7 @@ int main() {
     stencil_gpu(h_in, h_out_gpu, N);
 
     // Perform stencil operation on CPU
-    stencil_cpu(h_in, h_out_cpu, BLOCK_DIM);
+    stencil_cpu(h_in, h_out_cpu, N);
 
     // Verify GPU and CPU results
     bool match = true;
@@ -135,8 +135,10 @@ int main() {
         }
     }
     if (match) {
+        printf(GREEN); // print in green color if cpu computation and gpu computation matches (color constants defined in timer.h file)
         printf("GPU and CPU results match!\n");
     } else {
+        printf(RED);
         printf("GPU and CPU results do not match!\n");
     }
 
