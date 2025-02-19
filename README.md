@@ -13,3 +13,4 @@
 | 9 | Implemented Improved Parallel Sum Reduction Kernel <br> Implemented Optimized Softmax Kernel using parallel reductions | [better_reduction.cu](./day_009/better_reduction.cu) <br> [better_softmax.cu](./day_009/better_softmax.cu) | ✅ |
 | 10 | Implemented Vector addition in Triton <br> Implemented 2D Convolution using constant memory | [01_vec_addition.py](./day_010/01_vec_addition.py) <br> [conv2d.cu](./day_010/conv2d.cu) | ✅ |
 | 11 | Implemented Naive 3D Stencil operation | [3dstencil_naive.cu](./day_011/3dstencil_naive.cu) | ✅ |
+| 12 | Introduction to cuBLAS Vector Addition| [cublas_vadd.cu](./day_012/cublas_vadd.cu) | ✅ |
