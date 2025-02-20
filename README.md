@@ -14,3 +14,4 @@
 | 10 | Implemented Vector addition in Triton <br> Implemented 2D Convolution using constant memory | [01_vec_addition.py](./day_010/01_vec_addition.py) <br> [conv2d.cu](./day_010/conv2d.cu) | ✅ |
 | 11 | Implemented Naive 3D Stencil operation | [3dstencil_naive.cu](./day_011/3dstencil_naive.cu) | ✅ |
 | 12 | Introduction to cuBLAS Vector Addition| [cublas_vadd.cu](./day_012/cublas_vadd.cu) | ✅ |
+| 13 | Naive 1D Convolution | [naive1dconv.cu](./day_013/naive1dconv.cu) | ✅ |
