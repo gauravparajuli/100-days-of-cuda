@@ -17,3 +17,4 @@
 | 13 | Naive 1D Convolution | [naive1dconv.cu](./day_013/naive1dconv.cu) | ✅ |
 | 14 | Implemented GELU Activation Function <br> Implementing C/C++ extensions in PyTorch | [gelu.cu](./day_014/gelu.cu) <br> [polynomial_cuda.cu](./day_014_pytorch_extensions/polynomial_cuda.cu) <br> [polynomial_activation.py](./day_014_pytorch_extensions/polynomial_activation.py) | ✅ |
 | 15 | Optimized Tiled Matrix Multiplication by using Thread Coarsening | [mmul.cu](./day_015/mmul.cu) | ✅ |
+| 16 | Optimized stencil kernel by implementing tiling and finally register tilling. <br> there is some error in register tiling  but will fix this tomorrow. | [3dstencil.cu](/home/gaurav/cuda100/day_016/3dstencil.cu) | ✅ |
