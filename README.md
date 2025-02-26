@@ -20,3 +20,4 @@
 | 16 | Optimized stencil kernel by implementing tiling and finally register tilling. <br> there is some error in register tiling  but will fix this tomorrow. | [3dstencil.cu](./day_016/3dstencil.cu) | ✅ |
 | 17 | Optimized parallel reduction kernel by memory coalescing and minimizing control divergence | [preduction.cu](./day_017/preduction.cu) | Will do some minor bug fixes tomorrow |
 | 18 | Implemented Koggee Stone Scanning Algorithm | [kstone_scan.cu](./day_018/kstone_scan.cu) | ✅ |
+| 19 | Implemented Brent Kung Scanning Algorithm | [scanbrentkung.cu](./day_019/scanbrentkung.cu) | ✅ |
