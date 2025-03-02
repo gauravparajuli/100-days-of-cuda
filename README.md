@@ -24,3 +24,4 @@
 | 20 | Implemented Histogram Algorithm <br> Optimized it by using Privatisation and Shared Memory <br> Also learnt about atomic operations | [histogram.cu](./day_020/histogram.cu) | ✅ |
 | 21 | Implemented ReLU activation kernel | [relu.cu](./day_021/relu.cu) | ✅ |
 | 22 | Implemented Merge Parallel Patten | [merge.cu](./day_022/merge.cu) | ✅ |
+| 23 | Matrix Transpose | [transpose.cu](./day_023/transpose.cu) | ✅ |
