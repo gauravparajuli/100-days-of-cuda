@@ -25,3 +25,4 @@
 | 21 | Implemented ReLU activation kernel | [relu.cu](./day_021/relu.cu) | ✅ |
 | 22 | Implemented Merge Parallel Patten | [merge.cu](./day_022/merge.cu) | ✅ |
 | 23 | Matrix Transpose | [transpose.cu](./day_023/transpose.cu) | ✅ |
+| 24 | Brick Sort | [bricksort.cu](./day_024/bricksort.cu) | ✅ |
