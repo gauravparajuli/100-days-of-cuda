@@ -26,3 +26,4 @@
 | 22 | Implemented Merge Parallel Patten | [merge.cu](./day_022/merge.cu) | ✅ |
 | 23 | Matrix Transpose | [transpose.cu](./day_023/transpose.cu) | ✅ |
 | 24 | Brick Sort | [bricksort.cu](./day_024/bricksort.cu) | ✅ |
+| 24 | Merge Sort | [merge_sort.cu](./day_025/merge_sort.cu) | ✅ |
