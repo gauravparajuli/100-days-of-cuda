@@ -27,3 +27,4 @@
 | 23 | Matrix Transpose | [transpose.cu](./day_023/transpose.cu) | ✅ |
 | 24 | Brick Sort | [bricksort.cu](./day_024/bricksort.cu) | ✅ |
 | 25 | Merge Sort | [merge_sort.cu](./day_025/merge_sort.cu) | ✅ |
+| 26 | Sigmoid Kernel | [sigmoid.cu](./day_026/sigmoid.cu) | ✅ |
