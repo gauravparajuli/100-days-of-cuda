@@ -30,4 +30,5 @@
 | 26 | Sigmoid Kernel | [sigmoid.cu](./day_026/sigmoid.cu) | ✅ |
 | 27 | Implemented Layer Normalization | [layernorm.cu](./day_027/layernorm.cu) | ✅ |
 | 28 | Read and Implemented Boilerplate code for 3D Convolution | [3dconv.cu](./day_028/3dconv.cu) | ✅ |
-| 28 | Implemented rough draft of 3D Convolution | [3dconv.cu](./day_029/3dconv.cu) | ✅ |
+| 29 | Implemented rough draft of 3D Convolution | [3dconv.cu](./day_029/3dconv.cu)  
+| 30 | Implemented 2D convolution with max pooling | [maxpooling.cu](./day_030/maxpooling.cu) | ✅ |
